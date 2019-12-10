@@ -1,0 +1,16 @@
+@model Simple.SInjulMSBH.DataTransferObjects.PersonRequest
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<article class="row">
+
+    <form class="border rounded p-2" asp-controller="People" asp-action="Create" method="post">
+        <input asp-for="FullName" class="form-control" placeholder="Full Name" /><br />
+        <input asp-for="Age" class="form-control" placeholder="Age" /><br />
+        <input asp-for="BirthDate" type="datetime" class="form-control" placeholder="BirthDate" /><br />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+
+</article>

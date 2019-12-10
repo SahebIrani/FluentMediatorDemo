@@ -1,0 +1,10 @@
+﻿Install
+
+Install-Package FluentMediator
+Install-Package FluentMediator -Version 0.4.6
+
+For seameless .NET Core integration:
+
+Install-Package FluentMediator.Microsoft.Extensions.DependencyInjection
+Install-Package FluentMediator.Microsoft.Extensions.DependencyInjection -Version 0.4.6
+
